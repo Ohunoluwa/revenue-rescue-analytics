@@ -5,10 +5,10 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 # --- 1. Authenticate with Kaggle ---
-# Load the hidden environment variables
+# Loading the hidden environment variables
 load_dotenv() 
 
-# Set the token into the environment so the Kaggle library can find it
+# Setting the token into the environment so the Kaggle library can find it
 os.environ['KAGGLE_API_TOKEN'] = os.getenv("KAGGLE_API_TOKEN")
 
 import kaggle
