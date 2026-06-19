@@ -35,9 +35,10 @@ def main():
     csv_file = csv_files[0]
     print(f"Reading '{csv_file}' into memory. This might take a moment...")
     
-    # Load it into a Pandas DataFrame
+    # Loading it into pandas.frame
+
     df_raw = pd.read_csv(csv_file)
-    
+  
     # --- 4. Configure SQL Server Connection ---
     print("Preparing SQL Server connection...")
     
