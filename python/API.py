@@ -25,8 +25,7 @@ def main():
     print("Download complete.")
 
     # --- 3. Locate and Read the CSV ---
-    
-    # Find the CSV file that was just unzipped in the current directory
+    
     csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
     
     if not csv_files:
@@ -41,10 +40,7 @@ def main():
     
     # --- 4. Configure SQL Server Connection ---
     print("Preparing SQL Server connection...")
-    
-    # TODO: Update these two variables to match your SQL Server setup
-    # If using a default instance, it might just be your computer name (e.g., 'DESKTOP-1234')
-    # If using SQL Express, it often looks like 'DESKTOP-1234\\SQLEXPRESS'
+    
     server_name = r'OHUNOLUWA\SQLEXPRESS' 
     database_name = 'RevenueRescue'
 
