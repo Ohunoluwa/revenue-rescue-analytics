@@ -58,7 +58,7 @@
  
 ## 4. Machine Learning
 
- A Random Forest Classifier was used to predict customer churn risk.
+ A Random Forest Classifier was used to predict customer churn risk with 94.24% accuracy 
 
  Outputs:
 
